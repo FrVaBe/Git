@@ -16,7 +16,7 @@
 `$ git checkout -b [name_of_new_branch]`  
 <small> create a new branch and switch to it</small>
 
-**mergen**  
+**merge**  
 `$ git merge [name_of_branch]`  
 <small>merge branch (_name_of_branch_) on top of the current branch</small>
 
