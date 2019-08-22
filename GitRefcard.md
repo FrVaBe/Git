@@ -2,6 +2,16 @@
 
 ## Branching
 
+**naming convention**
+
+There is no hard naming convention but the slash separated naming seems common:
+
+```
+issue/... (some issue key/id)
+feature/... (some feature key/id)
+hotfix/....
+```
+
 **list**  
 `$ git branch`  
 <small>list all local branches</small>  
