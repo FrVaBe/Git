@@ -41,6 +41,17 @@ hotfix/....
 `$ git rebase master`  
 <small> moves the branch (_name_of_branch_) on the tip of the master branch</small>
 
+## Pushing
+
+**force push (e.g. after rebase)**  
+`$ git push --force`  
+<small>force updates</small>  
+`$ git push --force-with-lease`  
+<small>
+this option allows you to say that you expect the history you are updating is what you rebased and want to replace;
+if the remote ref still points at the commit you specified, you can be sure that no other people did anything to the ref
+</small>
+
 ## Stashing
 
 **create**  
@@ -64,4 +75,8 @@ hotfix/....
 `$git stash drop [<name_of_stash>]`  
 <small>remove a single stash entry from the list of stash entries;  _stash@{0}_ is assumed when no _<name_of_stash>_ is given</small>
 
+## Analysing Commit History
 
+**show commit tree**  
+`$ git log --oneline --graph [<path>…​]`  
+<small>pretty print a commit graph</small>
