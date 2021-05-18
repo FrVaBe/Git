@@ -82,3 +82,7 @@ if the remote ref still points at the commit you specified, you can be sure that
 **show commit tree**  
 `$ git log --oneline --graph [<path>…​]`  
 <small>pretty print a commit graph</small>
+
+## References
+
+* [How to undo anything in Git](https://bhupesh.gitbook.io/notes/git/how-to-undo-anything-in-git) by [@bhupeshimself](https://twitter.com/bhupeshimself)
